@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+            <div class="row gray d-flex justify-content-end align-items-start">
+                <a href="index.html" class="link">Home</a>
+                <a href="images.html" class="link">Images</a>
+            </div>
+
+            <div class="row app-bar">
+                    <label>Advanced Search</label>   
+                
+            </div>
+            <div class="line"></div>
+
+            <div class="row">
+                <form action="https://google.com/search" class="flex-fill">
+                    <div class="d-flex justify-content-start align-items-start">
+                        <label class="label-head1">Find pages with...</label>
+                        <div class="space"></div>
+                        <label class="label-head2">To do this in the search box.</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start">
+                        <label class="label-left">all these words:</label>
+                        <input class="search-advance" type="text" name="as_q">
+                        <label class="label-right">Type the important words: tri-colour rat terrier</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start">
+                        <label class="label-left">This exact word or phrase:</label>
+                        <input class="search-advance" type="text" name="as_epq">
+                        <label class="label-right">Put exact words in quotes: "rat terrier"</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start">
+                        <label class="label-left">Any of these words: </label>
+                        <input class="search-advance" type="text" name="as_oq">
+                        <label class="label-right">Type OR between all the words you want: miniature OR standard</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start">
+                        <label class="label-left">None of these words: </label>
+                        <input class="search-advance" type="text" name="as_oq">
+                        <label class="label-right">
+                            Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                        </label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start">
+                        <label class="label-left"> </label>
+                        <div class="align-to-right">
+                            <input type="submit" class="btn  btn-primary btn-sm float-right"  value="Google Advanced Search">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+
+
+            </div>
+         
+
+        </div>
+    </body>
+</html>
